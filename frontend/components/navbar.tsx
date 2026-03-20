@@ -27,13 +27,6 @@ export function Navbar() {
           >
             {open ? <GoSidebarCollapse className="size-4" /> : <GoSidebarExpand className="size-4" />}
           </Button>
-          <Button
-            size="sm"
-            variant="outline"
-            className="h-9 border-[#dbc8ad] bg-[#fff9f0] px-3 text-[#7f4d20] hover:bg-[#f7ead8]"
-          >
-            {"Workspace"}
-          </Button>
         </div>
       </div>
     </header>
