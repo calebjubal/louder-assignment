@@ -2,6 +2,12 @@
 
 FastAPI backend for the AI Event Concierge project.
 
+## Live Deployment
+
+- Backend URL: https://louder-backend.vercel.app
+- Frontend URL: https://louder-concierge-frontend.vercel.app
+- Live API docs: https://louder-backend.vercel.app/docs
+
 ## Features
 
 - Versioned API endpoints for proposal generation and history retrieval
@@ -67,8 +73,14 @@ uv run uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 API base URL:
 - http://127.0.0.1:8000
 
+Deployed API base URL:
+- https://louder-backend.vercel.app
+
 Interactive docs:
 - http://127.0.0.1:8000/docs
+
+Deployed interactive docs:
+- https://louder-backend.vercel.app/docs
 
 ## Endpoints
 

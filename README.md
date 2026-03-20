@@ -10,8 +10,9 @@ Stack:
 
 ## Live Deployment
 
-- Frontend: https://louder-concierge-frontend.vercel.app
-- Backend: https://louder-backend.vercel.app
+- Frontend App: https://louder-concierge-frontend.vercel.app
+- Backend API: https://louder-backend.vercel.app
+- Backend API Docs: https://louder-backend.vercel.app/docs
 
 ## Repository Requirement
 
