@@ -8,6 +8,11 @@ Stack:
 - Persistence: Supabase (sessions + proposals tables)
 - LLM: Groq
 
+## Live Deployment
+
+- Frontend: https://louder-concierge-frontend.vercel.app
+- Backend: https://louder-backend.vercel.app
+
 ## Repository Requirement
 
 For submission, this repository should be public on GitHub.
@@ -88,5 +93,6 @@ Quick start:
 4. Open http://localhost:3000
 
 Notes:
-- Frontend rewrites API calls to http://127.0.0.1:8000.
+- Frontend rewrites API calls to the deployed backend by default: https://louder-backend.vercel.app.
+- For local backend testing, set NEXT_PUBLIC_BACKEND_URL=http://127.0.0.1:8000 before running frontend.
 - If backend is not running, proposal generation/history requests will fail.

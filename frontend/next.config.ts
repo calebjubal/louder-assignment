@@ -1,11 +1,14 @@
 import type { NextConfig } from "next";
 
+const backendBaseUrl =
+  (process.env.NEXT_PUBLIC_BACKEND_URL ?? "https://louder-backend.vercel.app").replace(/\/$/, "");
+
 const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
         source: "/api/:path*",
-        destination: "http://127.0.0.1:8000/api/:path*",
+        destination: `${backendBaseUrl}/api/:path*`,
       },
     ];
   },
